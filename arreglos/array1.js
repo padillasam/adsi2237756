@@ -1,0 +1,10 @@
+console.log("Arreglos en JS");
+var arreglo = [];
+console.log(typeof arreglo);
+console.log(`tamaño= ${arreglo.length}`);
+arreglo[1] = 10;
+console.log(arreglo);
+arreglo.push('cadena');
+console.log(arreglo);
+arreglo[0]=321;
+console.log(arreglo);
