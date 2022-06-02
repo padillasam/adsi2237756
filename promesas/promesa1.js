@@ -1,7 +1,8 @@
+//solo puede tener un parámetro
 function prometedora(num){
     return new Promise((resolve,reject)=>{
-        //resolve(num); 
-        reject(new Error('Hubo error'));               
+        resolve(num); 
+        //reject(new Error('Hubo error'));               
     })
 }
 //..........................................
