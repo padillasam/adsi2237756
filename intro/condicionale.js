@@ -33,6 +33,34 @@ if (x>0){
      }else
      console.log('cero')    
 
+// Calificaciones 
+var nota = Math.random() * 4.9;
+console.log(`su nota es : ${nota}`);
+
+if (nota >= 4.5) {
+  console.log("Excelente");
+} else if (nota >= 4.0) {
+  console.log("Sobresaliente");
+} else if (nota >= 3.5) {
+  console.log("Aceptable");
+} else if (nota > 2.5) {
+  console.log("Regular");
+} else {
+  console.log("Insuficiente");
+}
+
+//OPERADORES LOGICOS && || !
+var x=true;//variable booleana
+var y=false;//variable booleana
+
+console.log(`negación de x ${!x}`)
+
+console.log(`Expresion OR disyunción,  O ${x || y}`)
+var caf=3.1;
+var edad=15
+console.log(`vota si es mayor que 18 ${!(edad<18)}`)
+console.log(`Expresion OR disyunción,  O ${edad<=12 || edad>=80}`)
+console.log(`Expresion AND CONJUNCIÓN,  Y ${caf>3.0 && caf<4.0}`)
 
 
 

@@ -25,6 +25,9 @@ console.log(typeof(x));
 x="cadena de texto";
 console.log(typeof(x));
 
+rango=Math.random()*(20-5)+5;
+console.log(rango)
+
 
 
 
